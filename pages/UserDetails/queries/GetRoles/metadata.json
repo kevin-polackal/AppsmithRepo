@@ -37,7 +37,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -53,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T16:25:04Z"
+    "createdAt": "2023-12-04T17:21:59Z"
   },
   "id": "UserDetails_GetRoles",
   "deleted": false,
-  "gitSyncId": "656c130cfe8bd52908eeff47_656d64fb65054271e274a48e"
+  "gitSyncId": "656c130cfe8bd52908eeff47_656e0ab7aaa31723964a780b"
 }

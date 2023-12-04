@@ -11,6 +11,10 @@
     {
       "id": "ProjectApply",
       "isDefault": false
+    },
+    {
+      "id": "UserInvolvement",
+      "isDefault": false
     }
   ],
   "viewMode": false,
