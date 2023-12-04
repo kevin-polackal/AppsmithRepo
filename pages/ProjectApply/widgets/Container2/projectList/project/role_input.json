@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
-    "topRow": 15,
+    "topRow": 16,
     "labelWidth": "11",
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
@@ -35,7 +35,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 20,
+    "bottomRow": 21,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
