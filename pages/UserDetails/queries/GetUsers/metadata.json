@@ -50,8 +50,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T04:12:14Z"
+    "userPermissions": []
   },
   "id": "UserDetails_GetUsers",
   "deleted": false,

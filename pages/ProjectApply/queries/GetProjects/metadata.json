@@ -45,8 +45,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T05:57:25Z"
+    "userPermissions": []
   },
   "id": "ProjectApply_GetProjects",
   "deleted": false,
