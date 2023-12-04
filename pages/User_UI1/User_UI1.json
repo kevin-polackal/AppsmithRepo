@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "SearchForProject",
-    "slug": "searchforproject",
+    "name": "User_UI1",
+    "slug": "user-ui1",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1990,
+          "bottomRow": 2000,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "SearchForProject_GetUsers",
+              "id": "User_UI1_GetUsers",
               "name": "GetUsers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
           ],
           [
             {
-              "id": "SearchForProject_GetRoles",
+              "id": "User_UI1_GetRoles",
               "name": "GetRoles",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -52,7 +52,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "SearchForProject",
+        "id": "User_UI1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
