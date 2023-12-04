@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 106,
+    "topRow": 100,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -19,7 +19,7 @@
         {"key": "primaryColumns.userName.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 6,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -58,11 +58,11 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701671058071,
-    "originalBottomRow": 134,
+    "columnUpdatedAt": 1701666754654,
+    "originalBottomRow": 144,
     "defaultSelectedRowIndices": [0],
-    "mobileBottomRow": 192,
-    "widgetName": "userBase",
+    "mobileBottomRow": 101,
+    "widgetName": "UserBase",
     "defaultPageSize": 0,
     "columnOrder": [
         "age",
@@ -72,17 +72,17 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 134,
+    "bottomRow": 142,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 41,
-    "parentColumnSpace": 11.796875,
-    "dynamicTriggerPathList": [],
+    "mobileRightColumn": 61,
+    "parentColumnSpace": 11.25,
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "isAdmin": {
-            "computedValue": "{{userBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"isAdmin\"]))}}",
+            "computedValue": "{{UserBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"isAdmin\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "isAdmin",
@@ -113,7 +113,7 @@
             "verticalAlignment": "CENTER"
         },
         "userName": {
-            "computedValue": "{{userBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userName\"]))}}",
+            "computedValue": "{{UserBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "userName",
@@ -144,7 +144,7 @@
             "verticalAlignment": "CENTER"
         },
         "userID": {
-            "computedValue": "{{userBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userID\"]))}}",
+            "computedValue": "{{UserBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "userID",
@@ -175,7 +175,7 @@
             "verticalAlignment": "CENTER"
         },
         "age": {
-            "computedValue": "{{userBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"age\"]))}}",
+            "computedValue": "{{UserBase.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"age\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "age",
@@ -206,24 +206,25 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "key": "fjznsraoxw",
+    "onRowSelected": "{{GetRoles.run()}}",
+    "key": "3zqw96bpku",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 61,
     "textSize": "0.875rem",
-    "widgetId": "vqxg02i5is",
+    "widgetId": "0gke3492gj",
     "minWidth": 450,
     "tableData": "{{GetUsers.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 164,
+    "mobileTopRow": 73,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 106,
-    "mobileLeftColumn": 7,
+    "originalTopRow": 102,
+    "mobileLeftColumn": 27,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }
