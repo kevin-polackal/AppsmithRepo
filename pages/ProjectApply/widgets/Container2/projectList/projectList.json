@@ -17,7 +17,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "defaultSelectedItem"},
         {"key": "listData"}
     ],
     "leftColumn": 0,
@@ -98,7 +97,7 @@
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
     "gridType": "vertical",
-    "defaultSelectedItem": "{{GetProjects.data}}",
+    "defaultSelectedItem": "",
     "key": "sf0w163n7e",
     "backgroundColor": "transparent",
     "isDeprecated": false,
