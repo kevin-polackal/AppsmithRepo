@@ -45,7 +45,7 @@
     "labelPosition": "Left",
     "key": "wi0kbtj3hx",
     "labelTextSize": "0.875rem",
-    "onTextChanged": "{{storeValue(JoinProject.responseMeta, projectNum.text);}}",
+    "onTextChanged": "{{storeValue(JoinProject.data, projectNum.text);}}",
     "isDeprecated": false,
     "rightColumn": 37,
     "widgetId": "4lrtj8r750",

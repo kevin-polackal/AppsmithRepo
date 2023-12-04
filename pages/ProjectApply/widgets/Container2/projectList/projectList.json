@@ -20,6 +20,7 @@
         {"key": "listData"}
     ],
     "leftColumn": 0,
+    "serverSidePagination": false,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -95,7 +96,7 @@
     "mainContainerId": "yzml6v3pc4",
     "primaryKeys": "{{projectList.listData.map((currentItem, currentIndex) => currentItem[\"projectID\"] )}}",
     "parentColumnSpace": 11.796875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onItemClick"}],
     "gridType": "vertical",
     "defaultSelectedItem": "",
     "key": "sf0w163n7e",
@@ -104,6 +105,7 @@
     "rightColumn": 63,
     "widgetId": "9jjhhyj4ai",
     "minWidth": 450,
+    "onItemClick": "{{GetProjects.run()}}",
     "parentId": "t2ay2txj83",
     "renderMode": "CANVAS",
     "mobileTopRow": 55,
