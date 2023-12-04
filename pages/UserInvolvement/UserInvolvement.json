@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "UserDetails",
-    "slug": "userdetails",
+    "name": "UserInvolvement",
+    "slug": "userinvolvement",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1470,
+          "bottomRow": 1630,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 63,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 650,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,18 +28,40 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "UserDetails_GetUsers",
+              "id": "UserInvolvement_GetUsers",
               "name": "GetUsers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
+          ],
+          [
+            {
+              "id": "UserInvolvement_GetMilestones",
+              "name": "GetMilestones",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "roleList.selectedItem.projectID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "UserInvolvement_GetRoles",
+              "name": "GetRoles",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "UserBase.selectedRow.userID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "UserDetails",
+        "id": "UserInvolvement",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +72,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656c11e8fe8bd52908eeff41_656c11e8fe8bd52908eeff43"
+  "gitSyncId": "656c130cfe8bd52908eeff47_656e0987aaa31723964a7803"
 }
