@@ -105,7 +105,7 @@
     "rightColumn": 63,
     "widgetId": "9jjhhyj4ai",
     "minWidth": 450,
-    "onItemClick": "{{GetProjects.run()}}",
+    "onItemClick": "",
     "parentId": "t2ay2txj83",
     "renderMode": "CANVAS",
     "mobileTopRow": 55,
