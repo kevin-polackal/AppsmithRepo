@@ -8,26 +8,24 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 610,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 60,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 620,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
@@ -39,5 +37,5 @@
     "policies": []
   },
   "deleted": false,
-  "gitSyncId": "656c11e8fe8bd52908eeff41_656c11e8fe8bd52908eeff43"
+  "gitSyncId": "656c130cfe8bd52908eeff47_656d5a7165054271e274a488"
 }
