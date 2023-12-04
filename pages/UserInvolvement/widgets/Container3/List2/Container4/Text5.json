@@ -19,7 +19,6 @@
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [
-        {"key": "text"},
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"},
@@ -28,7 +27,7 @@
     "leftColumn": 0,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.completed}}",
+    "text": "Completed: {{ currentItem.completed === 1 }}\n",
     "key": "bje7rkfotm",
     "isDeprecated": false,
     "rightColumn": 27,
