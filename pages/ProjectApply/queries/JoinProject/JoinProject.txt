@@ -1,0 +1,5 @@
+{
+	"userID": {{userBase.selectedRow.userID}},
+	"projectID": {{projectList.selectedItem.projectID}},
+	"role": {{role_input.text}}
+}
