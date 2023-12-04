@@ -1,0 +1,5 @@
+{
+	"userID": {{userBase.selectedRow.userID}},
+	"projectID": {{appsmith.store.undefined}},
+	"role": {{role_input.text}}
+}

@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "User_UI1",
+      "id": "UserDetails",
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "ProjectApply",
       "isDefault": false
     }
   ],
