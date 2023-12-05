@@ -14,7 +14,7 @@
     "animateLoading": true,
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [{"key": "menuItems.menuItem1.onClick"}],
-    "leftColumn": 44,
+    "leftColumn": 53,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}

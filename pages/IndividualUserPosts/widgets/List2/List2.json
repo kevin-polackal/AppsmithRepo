@@ -77,7 +77,7 @@
     "isLoading": false,
     "mainCanvasId": "rcw6p4edar",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 102,
+    "originalBottomRow": 105,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -88,7 +88,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List2",
-    "listData": "{{appsmith.store.UserPosts}}",
+    "listData": "{{GrabPostsForUser.data}}",
     "displayName": "List",
     "bottomRow": 102,
     "parentRowSpace": 10,
@@ -109,7 +109,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 38,
     "responsiveBehavior": "fill",
-    "originalTopRow": 25,
+    "originalTopRow": 28,
     "mobileLeftColumn": 22,
     "selectedItemView": "{{{}}}"
 }

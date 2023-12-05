@@ -34,6 +34,16 @@
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "IndividualUserPosts_GrabPostsForUser",
+              "name": "GrabPostsForUser",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.activeUserPosting.userID"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ]
         ],
