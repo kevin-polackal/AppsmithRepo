@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "widgetName": "Confirm_Button",
-    "onClick": "{{CreateAPost.run()}}",
+    "onClick": "{{CreateAPost.run()}}{{GetAllPostsCall.run()}}",
     "buttonColor": "#ffc13d",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
