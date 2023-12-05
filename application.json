@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Post Main Feed",
+      "isDefault": false
+    },
+    {
       "id": "UserDetails",
       "isDefault": true
     },
