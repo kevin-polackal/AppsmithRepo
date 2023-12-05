@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "UserDetails",
+    "pageId": "IndividualUserPosts",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -51,9 +51,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T22:35:09Z"
+    "createdAt": "2023-12-05T00:58:18Z"
   },
-  "id": "UserDetails_GetUsers",
+  "id": "IndividualUserPosts_GetUsers",
   "deleted": false,
-  "gitSyncId": "656c130cfe8bd52908eeff47_656d519d65054271e274a483"
+  "gitSyncId": "656e541d3c9632507a83be24_656e75aa8e652268618ae048"
 }
