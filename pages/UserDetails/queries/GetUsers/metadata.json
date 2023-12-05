@@ -41,7 +41,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -51,7 +51,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T16:25:04Z"
+    "createdAt": "2023-12-05T03:10:09Z"
   },
   "id": "UserDetails_GetUsers",
   "deleted": false,
