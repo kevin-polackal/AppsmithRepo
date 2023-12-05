@@ -7,6 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": "web:4000/proj/projects"
       },
       "invalids": [],
@@ -46,7 +47,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T05:57:25Z"
+    "createdAt": "2023-12-04T22:35:09Z"
   },
   "id": "ProjectApply_GetProjects",
   "deleted": false,

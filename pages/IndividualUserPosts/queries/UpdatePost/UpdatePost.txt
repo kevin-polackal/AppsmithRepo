@@ -1,0 +1,4 @@
+{
+	"content": {{ContentChangeField_Edit.text}},
+	"title": {{TitleChangeField_Edit.text}},
+}

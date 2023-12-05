@@ -1,0 +1,5 @@
+{
+	"userName": {{updateName.text}},
+	"isAdmin" : {{updateIsAdmin.isChecked ? 1 : 0 }},
+	"age": {{updateAge.value}}
+}

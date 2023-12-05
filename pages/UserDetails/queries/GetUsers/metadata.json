@@ -7,6 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": "web:4000/users/users"
       },
       "invalids": [],
@@ -51,7 +52,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T16:25:04Z"
+    "createdAt": "2023-12-05T03:20:02Z"
   },
   "id": "UserDetails_GetUsers",
   "deleted": false,
