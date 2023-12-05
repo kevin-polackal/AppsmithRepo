@@ -1,8 +1,8 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 16,
-    "widgetName": "IconButton5",
-    "onClick": "{{DeleteAllUserPosts.run().then(() => {\n  showAlert('All posts for ' + appsmith.store.activeUserPosting.userName + ' were deleted!', '');\n});}}",
+    "widgetName": "Delete_All_Posts_Button",
+    "onClick": "{{DeleteAllUserPosts.run().then(() => {\n  showAlert('All posts for ' + appsmith.store.activeUserPosting.userName + ' were deleted!', '');\n  GrabPostsForUser.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",

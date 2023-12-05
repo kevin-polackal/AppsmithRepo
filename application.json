@@ -19,10 +19,6 @@
     {
       "id": "IndividualUserPosts",
       "isDefault": false
-    },
-    {
-      "id": "dev",
-      "isDefault": false
     }
   ],
   "viewMode": false,

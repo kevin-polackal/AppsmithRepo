@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Delete_Post_Button",
-    "onClick": "{{storeValue('SelectedPost', currentItem).then(() => {\n  DeletePost.run();\n});\nGrabPostsForUser.run().then(() => {\n  showAlert('Post Deleted!', 'success');\n  app.updatePosts();\n});}}",
+    "onClick": "{{storeValue('SelectedPost', currentItem).then(() => {\n  DeletePost.run().then(() => {\n    {\n      {\n        GrabPostsForUser.run();\n      }\n    }\n  });\n});}}",
     "buttonColor": "#ef4444",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

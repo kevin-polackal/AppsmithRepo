@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 6,
     "widgetName": "Switch_to_user_button",
-    "onClick": "{{GrabPostsForUser.run().then(() => {\n  storeValue('activeUserPosting', currentItem);\n  app.updatePosts(GrabPostsForUser.data);\n});}}",
+    "onClick": "{{storeValue('activeUserPosting', currentItem).then(() => {\n  GrabPostsForUser.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
