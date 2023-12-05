@@ -17,6 +17,10 @@
       "isDefault": false
     },
     {
+      "id": "AdminView",
+      "isDefault": false
+    },
+    {
       "id": "IndividualUserPosts",
       "isDefault": false
     }
