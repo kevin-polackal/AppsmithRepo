@@ -18,7 +18,7 @@
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "isDeletable": false,
-    "shouldScrollContents": false,
+    "shouldScrollContents": true,
     "mobileRightColumn": 64,
     "animateLoading": true,
     "dynamicTriggerPathList": [],
