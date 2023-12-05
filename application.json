@@ -15,6 +15,10 @@
     {
       "id": "UserInvolvement",
       "isDefault": false
+    },
+    {
+      "id": "AdminView",
+      "isDefault": false
     }
   ],
   "viewMode": false,

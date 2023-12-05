@@ -1,0 +1,5 @@
+{
+	"userName": {{createName.text}},
+	"isAdmin": {{createAdmin.isChecked ? 1 : 0 }},
+	"age": {{createAge.value}}
+}
