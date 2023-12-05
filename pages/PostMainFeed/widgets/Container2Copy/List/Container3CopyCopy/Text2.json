@@ -21,6 +21,7 @@
     "key": "sf3h3c9rxg",
     "labelTextSize": "0.875rem",
     "rightColumn": 29,
+    "disableLink": false,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "32e0eaango",

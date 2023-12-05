@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 970,
+          "bottomRow": 1020,
           "containerStyle": "none",
           "snapRows": 105,
           "parentRowSpace": 1,
@@ -33,6 +33,16 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "IndividualUserPosts_GrabPostsForUser",
+              "name": "GrabPostsForUser",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.activeUserPosting.userID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

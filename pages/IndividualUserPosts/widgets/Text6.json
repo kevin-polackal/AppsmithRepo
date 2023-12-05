@@ -19,7 +19,7 @@
     "fontFamily": "Nunito Sans",
     "parentColumnSpace": 24.3125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 32,
+    "leftColumn": 35,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -30,7 +30,7 @@
     "text": "{{appsmith.store.activeUserPosting.userName}}'s Post Wall",
     "key": "pfo3mnftyv",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 63,
     "backgroundColor": "#d4d4d8",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

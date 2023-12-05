@@ -141,6 +141,7 @@
             "text": "{{List.listData.map((currentItem, currentIndex) => {\n                return (function(){\n                  return  (currentItem.userName);\n                })();\n              })}}",
             "key": "sf3h3c9rxg",
             "rightColumn": 45,
+            "disableLink": false,
             "textAlign": "LEFT",
             "widgetId": "32e0eaango",
             "logBlackList": {
@@ -249,6 +250,7 @@
         "IconButton1CopyCopy": {
             "boxShadow": "none",
             "widgetName": "IconButton1CopyCopy",
+            "onClick": "",
             "buttonColor": "{{List.listData.map((currentItem, currentIndex) => {\n                return (function(){\n                  return  \"#ef4444\";\n                })();\n              })}}",
             "displayName": "Icon Button",
             "iconSVG": "/static/media/icon.1a0c634a.svg",
@@ -1470,10 +1472,13 @@
     "onPageChange": "{{select_cars.run()}}",
     "type": "LIST_WIDGET",
     "hideCard": false,
-    "gridGap": "12",
+    "gridGap": "32\n",
     "animateLoading": true,
     "parentColumnSpace": 10.1298828125,
-    "dynamicTriggerPathList": [{"key": "onPageChange"}],
+    "dynamicTriggerPathList": [
+        {"key": "onPageChange"},
+        {"key": "template.IconButton1CopyCopy.onClick"}
+    ],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},

@@ -1,6 +1,7 @@
 {
     "boxShadow": "none",
     "widgetName": "IconButton1CopyCopy",
+    "onClick": "",
     "buttonColor": "#ef4444",
     "displayName": "Icon Button",
     "iconSVG": "/static/media/icon.1a0c634a.svg",
@@ -11,7 +12,7 @@
     "hideCard": false,
     "animateLoading": true,
     "parentColumnSpace": 12.01953125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 3,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,

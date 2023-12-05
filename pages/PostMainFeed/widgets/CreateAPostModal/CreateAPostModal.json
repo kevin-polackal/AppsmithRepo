@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "widgetName": "Modal1",
+    "widgetName": "CreateAPostModal",
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.4975978e.svg",

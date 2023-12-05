@@ -1,9 +1,5 @@
 export default {
-	updatePosts() {
-		// Grab user posts
-		const user_posts = GrabPostsForUser.data;
-
-    // Update the list in the store
-    storeValue('UserPosts', user_posts);
+	updatePosts(postsData) {
+		// Potential workspace for refreshing Post Wall without refresh
 	}
 }
