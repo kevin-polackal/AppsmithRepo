@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "IndividualUserPosts",
-    "slug": "individualuserposts",
+    "name": "dev",
+    "slug": "dev",
     "layouts": [
       {
         "viewMode": false,
@@ -13,33 +13,22 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 970,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 105,
+          "snapRows": 88,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1070,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "IndividualUserPosts_GetUsers",
-              "name": "GetUsers",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "IndividualUserPosts",
+        "id": "dev",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e541d3c9632507a83be24_656e80cd8e652268618ae04c"
+  "gitSyncId": "656e541d3c9632507a83be24_656ec6044564095c8f3ac0c9"
 }

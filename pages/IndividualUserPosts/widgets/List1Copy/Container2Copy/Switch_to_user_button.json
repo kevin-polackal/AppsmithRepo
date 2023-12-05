@@ -1,8 +1,8 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 6,
-    "widgetName": "IconButton2Copy",
-    "onClick": "{{storeValue('activeUserPosting', currentItem).then(() => {\n  GrabPostsForUser.run();\n});}}",
+    "widgetName": "Switch_to_user_button",
+    "onClick": "{{storeValue('activeUserPosting', currentItem).then(() => {\n  GrabPostsForUser.run().then(() => {\n    showAlert('Switched User...');\n  });\n});\napp.updatePosts();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",

@@ -1,0 +1,4 @@
+{
+	"content": {{appsmith.store.SelectedPost.content}},
+	 "title": '{{appsmith.store.SelectedPost.title}}',
+}
