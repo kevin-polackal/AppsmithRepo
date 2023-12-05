@@ -1,4 +1,4 @@
 {
-	"content": {{appsmith.store.SelectedPost.content}},
-	 "title": '{{appsmith.store.SelectedPost.title}}',
+	"content": {{ContentChangeField_Edit.text}},
+	"title": {{TitleChangeField_Edit.text}},
 }
