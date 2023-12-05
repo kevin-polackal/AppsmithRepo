@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetProjects",
+    "name": "GetAllPostsCall",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/proj/projects"
+        "url": "web:4000/posts/posts"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "ProjectApply",
+    "pageId": "PostMainFeed",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T22:35:09Z"
+    "createdAt": "2023-12-04T21:28:43Z"
   },
-  "id": "ProjectApply_GetProjects",
+  "id": "PostMainFeed_GetAllPostsCall",
   "deleted": false,
-  "gitSyncId": "656c130cfe8bd52908eeff47_656d6a4565054271e274a491"
+  "gitSyncId": "656dfd503c9632507a83bdd9_656e448b3c9632507a83bdf8"
 }
