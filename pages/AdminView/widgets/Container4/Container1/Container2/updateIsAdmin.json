@@ -22,6 +22,8 @@
         {"key": "defaultCheckedState"}
     ],
     "labelPosition": "Left",
+    "labelStyle": "BOLD",
+    "labelTextColor": "white",
     "isDisabled": false,
     "key": "uzq8f2xon5",
     "isRequired": false,
@@ -40,11 +42,11 @@
     "isLoading": false,
     "mobileTopRow": 18,
     "responsiveBehavior": "fill",
-    "originalTopRow": 18,
+    "originalTopRow": 17,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 3,
     "defaultCheckedState": "{{UserBase.selectedRow.isAdmin == 1}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 23,
+    "originalBottomRow": 22,
     "minDynamicHeight": 4
 }

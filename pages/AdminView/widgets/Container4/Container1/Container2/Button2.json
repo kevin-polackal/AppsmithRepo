@@ -4,7 +4,7 @@
     "mobileBottomRow": 9,
     "widgetName": "Button2",
     "onClick": "{{DeleteUser.run()}}",
-    "buttonColor": "#b91c1c",
+    "buttonColor": "#7f1d1d",
     "dynamicPropertyPathList": [
         {"key": "isVisible"},
         {"key": "isDisabled"}

@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 4,
-    "widgetName": "Text1",
+    "widgetName": "reportID",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -17,29 +17,30 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 8.83984375,
+    "parentColumnSpace": 6.626046657562256,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Manage Users",
-    "key": "500d3570w8",
+    "text": "Report Number {{currentItem.reportID}}",
+    "key": "2m53uaey87",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 34,
     "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "6k0tuaez1h",
+    "dynamicHeight": "FIXED",
+    "widgetId": "qf0ytvxfw1",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "white",
     "version": 1,
-    "parentId": "agewhez2a2",
+    "parentId": "njxgmgt3ar",
     "tags": [
         "Suggested",
         "Content"
