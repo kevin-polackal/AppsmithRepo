@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 21.25,
     "dynamicTriggerPathList": [],
-    "leftColumn": 34,
+    "leftColumn": 39,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Delete All Posts for {{appsmith.store.activeUserPosting.userName}}",
     "key": "vxfjk59ec1",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 58,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "zkuz54m42n",
