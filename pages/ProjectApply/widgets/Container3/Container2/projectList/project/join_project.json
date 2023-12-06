@@ -4,7 +4,7 @@
     "mobileBottomRow": 19,
     "widgetName": "join_project",
     "onClick": "{{storeValue('join', currentItem).then(() => {\n  JoinProject.run();\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#7f1d1d",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,7 +22,6 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 38,
     "dynamicBindingPathList": [
-        {"key": "buttonColor"},
         {"key": "borderRadius"},
         {"key": "text"}
     ],
