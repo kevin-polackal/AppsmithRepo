@@ -29,10 +29,10 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{UserBase.selectedRow.userName}} roles: ",
+    "text": "What {{UserBase.selectedRow.userName}} is Working On...",
     "key": "cqkpupmf1s",
     "isDeprecated": false,
-    "rightColumn": 23,
+    "rightColumn": 40,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "jdq550ycjj",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 4,
-    "fontSize": "1rem",
+    "originalBottomRow": 6,
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

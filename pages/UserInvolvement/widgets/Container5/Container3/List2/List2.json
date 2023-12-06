@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "z3ehtil1un",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 38,
+    "originalBottomRow": 40,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -101,14 +101,14 @@
     "key": "sksey1neku",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 64,
     "widgetId": "iosj4z1ytg",
     "minWidth": 450,
     "parentId": "n1rluc0rgb",
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 6,
+    "originalTopRow": 8,
     "mobileLeftColumn": 20,
     "selectedItemView": "{{{}}}"
 }

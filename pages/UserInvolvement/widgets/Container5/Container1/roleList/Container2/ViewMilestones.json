@@ -4,7 +4,7 @@
     "mobileBottomRow": 9,
     "widgetName": "ViewMilestones",
     "onClick": "{{storeValue('viewMilestone', currentItem).then(() => {\n  GetMilestones.run();\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#7f1d1d",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -21,10 +21,7 @@
     "parentColumnSpace": 7.088611602783203,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 43,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "View Milestones",
     "isDisabled": false,
     "key": "6j9pcdbcuo",
