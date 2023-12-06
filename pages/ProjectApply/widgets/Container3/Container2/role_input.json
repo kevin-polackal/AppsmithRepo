@@ -11,7 +11,7 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "labelTextColor"}
+        {"key": "label"}
     ],
     "labelStyle": "BOLD",
     "inputType": "TEXT",
@@ -47,7 +47,7 @@
     "parentColumnSpace": 8.627593994140625,
     "dynamicTriggerPathList": [{"key": "onTextChanged"}],
     "labelPosition": "Left",
-    "labelTextColor": "{{appsmith.theme.colors.backgroundColor}}",
+    "labelTextColor": "white",
     "key": "wi0kbtj3hx",
     "labelTextSize": "1.25rem",
     "onTextChanged": "{{storeValue('\\'role\\'', '{{}}');}}",
@@ -55,7 +55,7 @@
     "rightColumn": 64,
     "widgetId": "4lrtj8r750",
     "minWidth": 450,
-    "label": "Get Going On A Project!",
+    "label": "Get Going on a Project, {{userBase.selectedRow.userName}}!",
     "parentId": "t2ay2txj83",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
