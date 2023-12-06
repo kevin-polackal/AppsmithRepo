@@ -1,7 +1,7 @@
 {
     "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     "mobileBottomRow": 12,
-    "borderColor": "#eab308",
+    "borderColor": "#ffffff",
     "widgetName": "Container3",
     "disallowCopy": true,
     "isCanvas": true,
@@ -65,7 +65,7 @@
     "positioning": "fixed",
     "flexVerticalAlignment": "stretch",
     "key": "un4be52o09",
-    "backgroundColor": "white",
+    "backgroundColor": "#d2324a",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
