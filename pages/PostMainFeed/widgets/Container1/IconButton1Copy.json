@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "widgetName": "IconButton1Copy",
-    "buttonColor": "#ffc13d",
+    "buttonColor": "#7f1d1d",
     "displayName": "Icon Button",
     "iconSVG": "/static/media/icon.1a0c634a.svg",
     "topRow": 1,

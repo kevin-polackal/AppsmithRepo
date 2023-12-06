@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -54,7 +54,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T03:20:02Z"
+    "createdAt": "2023-12-04T17:17:09Z"
   },
   "id": "UserInvolvement_GetRoles",
   "deleted": false,

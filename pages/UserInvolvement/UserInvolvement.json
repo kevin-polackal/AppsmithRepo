@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1420,
+          "bottomRow": 1410,
           "containerStyle": "none",
           "snapRows": 63,
           "parentRowSpace": 1,
@@ -28,6 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "UserInvolvement_GetMilestones",
+              "name": "GetMilestones",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.viewMilestone.projectID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "UserInvolvement_GetUsers",
               "name": "GetUsers",
               "confirmBeforeExecute": false,
@@ -37,16 +47,6 @@
             }
           ],
           [
-            {
-              "id": "UserInvolvement_GetMilestones",
-              "name": "GetMilestones",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "roleList.selectedItem.projectID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "UserInvolvement_GetRoles",
               "name": "GetRoles",

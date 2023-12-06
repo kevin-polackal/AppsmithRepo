@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "widgetName": "Container2Copy",
-    "borderColor": "#3e2a35",
+    "borderColor": "white",
     "isCanvas": true,
     "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Container",
@@ -46,7 +46,7 @@
     "borderWidth": "2",
     "key": "6bzu8mpizb",
     "labelTextSize": "0.875rem",
-    "backgroundColor": "#FFFFFF",
+    "backgroundColor": "#7f1d1d",
     "rightColumn": 56,
     "dynamicHeight": "FIXED",
     "widgetId": "q5qqvhujdl",
@@ -56,9 +56,9 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 15,
+    "originalTopRow": 13,
     "borderRadius": "15px",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 99,
+    "originalBottomRow": 97,
     "minDynamicHeight": 4
 }

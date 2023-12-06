@@ -27,7 +27,7 @@
     ],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 25,
+    "originalBottomRow": 23,
     "mobileBottomRow": 18,
     "widgetName": "ContentChangeField_Edit",
     "displayName": "Input",
