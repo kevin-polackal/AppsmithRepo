@@ -1,5 +1,5 @@
 {
 	"userID": {{userBase.selectedRow.userID}},
-	"projectID": {{projectList.selectedItem.projectID}},
+	"projectID": {{appsmith.store.join.projectID}},
 	"role": {{role_input.text}}
 }

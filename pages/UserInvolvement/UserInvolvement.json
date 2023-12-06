@@ -28,6 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "UserInvolvement_GetMilestones",
+              "name": "GetMilestones",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.viewMilestone.projectID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "UserInvolvement_GetUsers",
               "name": "GetUsers",
               "confirmBeforeExecute": false,
@@ -37,16 +47,6 @@
             }
           ],
           [
-            {
-              "id": "UserInvolvement_GetMilestones",
-              "name": "GetMilestones",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "roleList.selectedItem.projectID"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "UserInvolvement_GetRoles",
               "name": "GetRoles",

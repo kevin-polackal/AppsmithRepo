@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 19,
     "widgetName": "join_project",
-    "onClick": "{{JoinProject.run();\nstoreValue('\\'role\\'', role_input.text);}}",
+    "onClick": "{{storeValue('join', currentItem).then(() => {\n  JoinProject.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

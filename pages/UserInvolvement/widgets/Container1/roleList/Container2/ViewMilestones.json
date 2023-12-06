@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 9,
     "widgetName": "ViewMilestones",
-    "onClick": "{{GetMilestones.run()}}",
+    "onClick": "{{storeValue('viewMilestone', currentItem).then(() => {\n  GetMilestones.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

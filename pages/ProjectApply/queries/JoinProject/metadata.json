@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"userID\": {{userBase.selectedRow.userID}},\n\t\"projectID\": {{projectList.selectedItem.projectID}},\n\t\"role\": {{role_input.text}}\n}",
+      "body": "{\n\t\"userID\": {{userBase.selectedRow.userID}},\n\t\"projectID\": {{appsmith.store.join.projectID}},\n\t\"role\": {{role_input.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -53,7 +53,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "projectList.selectedItem.projectID",
+      "appsmith.store.join.projectID",
       "role_input.text",
       "userBase.selectedRow.userID"
     ],

@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{UserBase.selectedRow.userName}}'s Milestones on {{roleList.selectedItem.projectID}}:",
+    "text": "{{UserBase.selectedRow.userName}}'s Milestones on {{appsmith.store.viewMilestone.projectID}}:",
     "key": "x4myvfhpee",
     "isDeprecated": false,
     "rightColumn": 43,
@@ -53,7 +53,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 7,
+    "originalBottomRow": 5,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
