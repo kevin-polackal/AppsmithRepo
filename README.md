@@ -1,4 +1,3 @@
-If you are looking for the most up-to-date version of our Appsmith App, it will be in kevin-polackal-edits, the default branch!
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
