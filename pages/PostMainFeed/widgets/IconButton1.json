@@ -3,7 +3,7 @@
     "mobileBottomRow": 16,
     "widgetName": "IconButton1",
     "onClick": "{{GetAllPostsCall.run()}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#7f1d1d",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
@@ -20,10 +20,7 @@
     "parentColumnSpace": 21.25,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 12,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,
     "key": "zzvirq9dmt",
     "isDeprecated": false,
